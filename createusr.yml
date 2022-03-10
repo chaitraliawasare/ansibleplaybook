@@ -2,6 +2,6 @@
   tasks:
   - name: Add a user named user1
     ansible.builtin.user:
-       name: user3
+       name: ansibleusr
        comment: ansible used
        password: 'ansible'
