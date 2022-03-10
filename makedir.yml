@@ -1,0 +1,6 @@
+- hosts: all
+  tasks:
+  - name: Creating a new directory
+    file:
+      path: "/tmp/ansible"
+      state: directory 
